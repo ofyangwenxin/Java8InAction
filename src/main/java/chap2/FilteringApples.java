@@ -162,6 +162,7 @@ public class FilteringApples {
          * 第六次尝试：使用Lambda表达式
          */
         List<Apple> result = filterApples(inventory, (Apple apple) -> "red".equals(apple.getColor()));
+
     }
 
     public interface Predicate<T> {
